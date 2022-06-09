@@ -7,7 +7,7 @@ export const Homepage = () => {
 
 
     return (
-        <div className="homepage-container">
+        <main className="homepage-container">
             <div className="about-me-container">
                 <section id="about-me">
                     <h1 style={{textAlign:"center"}}>Hello World</h1>
@@ -27,6 +27,6 @@ export const Homepage = () => {
                 </section>
                 <img src={me}/>
             </div>
-        </div>
+        </main>
     )
 }
