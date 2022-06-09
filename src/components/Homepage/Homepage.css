@@ -1,7 +1,11 @@
 
 .homepage-container {
-    background-color: var(--background-color);
-    width: 100vw;
-    height: 100vh;
-    color: var(--lightest-color);
+    background-color: var(--color-1);
+    color: var(--color-4);
+    margin: 0;
+    position: fixed;
+    height: 85vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

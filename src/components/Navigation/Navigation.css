@@ -1,0 +1,36 @@
+
+.nav-container {
+    background-color: var(--dark);
+    margin: 0;
+    position: fixed;
+    height: 15vh;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-container a:hover {
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+
+}
+
+#resume, #portfolio, #contact {
+    padding: 15px;
+}
