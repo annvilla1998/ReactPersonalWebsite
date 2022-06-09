@@ -1,6 +1,10 @@
 
 .homepage-container {
-    background-color: var(--color-1);
+    /* background-color: var(--color-1); */
+    background-image: url(https://t3.ftcdn.net/jpg/01/94/25/22/360_F_194252203_Mz8cOlXRRRddytVDoyTKXn5qH75pE3fQ.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--color-4);
     margin: 0;
     position: fixed;
@@ -8,4 +12,52 @@
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 2vmin
 }
+
+
+#about-me {
+    background-color: var(--dark);
+    margin: 15% 0 auto 0;
+    width: 60vw;
+    height: 60vh;
+    padding: 2%;
+    line-height: 5vmin;
+    overflow: auto;
+}
+
+#about-me::-webkit-scrollbar {
+    display: none;
+  }
+
+#about-me i {
+    font-size: 3vw;
+    margin: 0 1vmin;
+    padding: 1.5vmin 2vmin;
+    border:6px solid var(--dark);
+    background-color: var(--color-4);
+    color: var(--dark);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+#about-me i:hover {
+    color: var(--color-4);
+    background-color: var(--dark);
+    border:6px solid var(--color-4);
+}
+
+.about-me-container {
+    display: flex;
+    
+}
+
+.about-me-container img {
+    background-color: var(--dark);
+    margin: 15% auto auto 0;
+    width: auto;
+    height: 60vh;
+    padding: 2%;
+}
+
+
