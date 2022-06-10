@@ -1,0 +1,66 @@
+
+.resume-page {
+    margin : 15vh 15vw 8vh 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+#resume {
+    border: 5px solid black;
+    width: 55vw;
+    height:auto;
+    padding: 3vmin;
+    line-height: 1.5;
+}
+
+#resume li {
+    margin: 1vmin 0;
+    list-style-type: "⭐";
+}
+
+#resume header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resume h2 {
+    color: var(--color-3);
+}
+
+
+.resume-header-contact-info {
+    display: flex;
+    gap: 2vmin;
+    align-items: center;
+}
+
+.resume-page article a {
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+.resume-page article a:hover {
+    text-decoration: underline;
+}
+
+.resume-page footer a {
+    border: 1px solid var(--color-3);
+    padding: 2vmin 10vmin;
+    border-radius: 2vmin;
+    background-color: var(--color-3);
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.resume-page footer a:hover {
+    border: 1px solid var(--color-4);
+    padding: 2vmin 10vmin;
+    border-radius: 2vmin;
+    background-color: var(--color-4);
+    color: var(--color-1);
+}

@@ -1,6 +1,5 @@
 import './Homepage.css'
 import me from '../../assets/images/me.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Homepage = () => {
 
@@ -25,7 +24,7 @@ export const Homepage = () => {
                     <a href="https://github.com/annvilla1998"><i className="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/anabel-villalobos-5772ab196/"><i className="fa-brands fa-linkedin-in"></i></a>
                 </section>
-                <img src={me}/>
+                <img alt="Anabel Vilalobos" src={me}/>
             </div>
         </main>
     )
