@@ -13,9 +13,9 @@ export const Navigation = () => {
                 <div id="resume-link">
                     <Link to="/resume">Resume</Link>
                 </div>
-                <div id="portfolio-link">
+                {/* <div id="portfolio-link">
                     <Link to="/portfolio">Portfolio</Link>
-                </div>
+                </div> */}
                 <div id="contact-link">
                     <Link to="/contact">Contact</Link>
                 </div>
