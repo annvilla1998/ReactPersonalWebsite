@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactPersonalWebsite/static/css/main.eeaa9fe4.css",
+    "main.js": "/ReactPersonalWebsite/static/js/main.8cfbbb46.js",
+    "static/media/me.jpg": "/ReactPersonalWebsite/static/media/me.bbab30a9113dfc6610b6.jpg",
+    "static/media/resume.pdf": "/ReactPersonalWebsite/static/media/resume.172cff5b3ff72d46e392.pdf",
+    "index.html": "/ReactPersonalWebsite/index.html",
+    "main.eeaa9fe4.css.map": "/ReactPersonalWebsite/static/css/main.eeaa9fe4.css.map",
+    "main.8cfbbb46.js.map": "/ReactPersonalWebsite/static/js/main.8cfbbb46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeaa9fe4.css",
+    "static/js/main.8cfbbb46.js"
+  ]
+}
