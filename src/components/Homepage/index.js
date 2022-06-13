@@ -19,7 +19,7 @@ export const Homepage = () => {
                     the thrill and the thought, an imagination can come to life with code. I have developed an insatiable 
                     appetite for turning lines of code into real life applications. My primary focus currently is becoming
                     a better Developer on various tech stacks. I am both driven and self-motivated, constantly seeking to
-                    learn new technologies and frameworks
+                    learn new technologies and frameworks.
                     </p>
                     <a href="https://github.com/annvilla1998"><i className="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/anabel-villalobos-5772ab196/"><i className="fa-brands fa-linkedin-in"></i></a>
