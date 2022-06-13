@@ -8,7 +8,7 @@
 .contact-page section {
     width: 50vw;
     height: 50vh;
-    font-size: 2rem;
+    font-size: 3.5vmin;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@
     width: 100%;
     margin: 0.5vmin;
     height: 4vmin;
-    font-size: 1rem;
+    font-size: 2.5vmin;
     padding: 0.5vmin 0 0 1vmin;
 }
 
@@ -27,7 +27,7 @@
 
 .contact-page #message{
     height: 20vmin;
-    font-size: 1rem;
+    font-size: 2.5vmin;
     padding: 0.5vmin 0 0 1vmin;
     font-family: 'Open Sans', sans-serif;
     margin: 0.5vmin;
@@ -42,7 +42,7 @@
 .contact-page #submit {
     height: 4vmin;
     width: 100%;
-    font-size: 1rem;
+    font-size: 2.5vmin;
     margin: 0.5vmin;
     padding: 1.5vmin 0 3vmin 0;
     border-radius: 2vmin;
