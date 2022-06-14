@@ -1,10 +1,13 @@
 
 .homepage-container {
-    /* background-color: var(--color-1); */
-    background-image: url(https://t3.ftcdn.net/jpg/01/94/25/22/360_F_194252203_Mz8cOlXRRRddytVDoyTKXn5qH75pE3fQ.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(90deg, #7feead, #d88cf0, var(--color-4));
+    background-size: 300% 300%;
+    animation: gradient 4s alternate infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     color: var(--color-4);
     margin: 0;
     position: fixed;
@@ -12,8 +15,18 @@
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 2vmin
+    font-size: 2vmin;
+
 }
+
+@keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
 
 
 #about-me {
@@ -26,6 +39,14 @@
     padding: 2%;
     line-height: 5vmin;
     overflow: auto;
+    -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#about-me h1:hover {
+    width: 100%;
+    filter: drop-shadow(0 0 20px white);
+    color: white;
 }
 
 #about-me::-webkit-scrollbar {
@@ -49,9 +70,10 @@
     border:6px solid var(--color-4);
 }
 
+ 
+
 .about-me-container {
     display: flex;
-    
 }
 
 .about-me-container img {
@@ -62,6 +84,43 @@
     width: auto;
     height: 60vh;
     padding: 2%;
+    -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 
+
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
