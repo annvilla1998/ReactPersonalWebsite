@@ -1,23 +1,35 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Navigation.css'
 
-
 export const Navigation = () => {
+
 
     return (
         <nav className="nav-container">
             <div id="home-link">
-                <Link to="/">Anabel Villalobos</Link>
+                <NavLink style={({ isActive }) => ({
+                    border: isActive ? '1px solid var(--color-4)' : 'none',
+                    padding: isActive ? '2px' : '0',
+                    color: isActive ? 'var(--color-4)' : 'white'
+                })} to="/">Anabel Villalobos</NavLink>
             </div>
             <div className="nav-right">
                 <div id="resume-link">
-                    <Link to="/resume">Resume</Link>
+                    <NavLink style={({ isActive }) => ({
+                        border: isActive ? '1px solid var(--color-4)' : 'none',
+                        padding: isActive ? '2px' : '0',
+                        color: isActive ? 'var(--color-4)' : 'white'
+                    })} to="/resume">Resume</NavLink>
                 </div>
                 {/* <div id="portfolio-link">
-                    <Link to="/portfolio">Portfolio</Link>
+                    <Link onClick={() =>handleActiveLink()} to="/portfolio">Portfolio</Link>
                 </div> */}
                 <div id="contact-link">
-                    <Link to="/contact">Contact</Link>
+                    <NavLink style={({ isActive }) => ({
+                        border: isActive ? '1px solid var(--color-4)' : 'none',
+                        padding: isActive ? '2px' : '0',
+                        color: isActive ? 'var(--color-4)' : 'white'
+                    })} to="/contact">Contact</NavLink>
                 </div>
             </div>
         </nav>

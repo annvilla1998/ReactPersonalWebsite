@@ -23,11 +23,6 @@
 }
 
 
-.nav-container a:hover {
-    color: var(--color-4);
-    text-decoration: none;
-}
-
 .nav-right {
     display: flex;
 
