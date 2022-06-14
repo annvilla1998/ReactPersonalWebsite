@@ -76,16 +76,22 @@
     display: flex;
 }
 
+.profile-image {
+  overflow: hidden;
+  height: 60vh;
+  width: 40vh;
+  margin-top: 20vh;
+  margin-bottom: 3vh;
+  background-color: var(--dark);
+  padding: 2%;
+  -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  margin-left: 0;
+}
+
 .about-me-container img {
-    background-color: var(--dark);
-    margin-top: 20vh;
-    margin-bottom: 3vh;
-    margin-left: 0;
-    width: auto;
-    height: 60vh;
-    padding: 2%;
-    -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    height: auto;
+    max-width: 100%;
 }
 
 

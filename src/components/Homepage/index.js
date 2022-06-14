@@ -24,7 +24,9 @@ export const Homepage = () => {
                     <a href="https://github.com/annvilla1998"><i className="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/anabel-villalobos-5772ab196/"><i className="fa-brands fa-linkedin-in"></i></a>
                 </section>
-                <img alt="Anabel Vilalobos" src={me}/>
+                <div className="profile-image">
+                    <img alt="Anabel Vilalobos" src={me}/>
+                </div>
             </div>
         </main>
     )
