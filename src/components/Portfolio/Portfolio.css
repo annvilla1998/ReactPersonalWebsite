@@ -1,0 +1,27 @@
+.portfolio-page {
+    display: flex;
+    margin: 8vw 5vw;
+    -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.project {
+    margin: 2vw;
+
+}
+
+.project-image {
+    width: 35vw;
+    overflow: hidden;
+    margin: 2vw;
+}
+
+.project a {
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+.project img {
+    width: 100%;
+    height: auto;    
+}

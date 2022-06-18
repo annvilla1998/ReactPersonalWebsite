@@ -26,7 +26,7 @@ export const Resume = () => {
                     <div id="projects-section">
                         <h2>Projects</h2>
                         <div className="resume-project">
-                            <p style={{fontWeight: "700"}}><a href="https://eventtodo.herokuapp.com/">EventToDo</a> (Python, Javascript, Flask, React / Redux, HTML5, CSS, SQLAlchemy, PostgreSQL, Faker)</p>
+                            <p style={{fontWeight: "700"}}><a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">EventToDo</a> (Python, Javascript, Flask, React / Redux, HTML5, CSS, SQLAlchemy, PostgreSQL, Faker)</p>
                             <p>Where you can plan around work and other important priorities to be able to attend music events.</p>
                             <ul>
                                 <li>Utilized setInterval function within React useEffect hook to build an image carousel background for login/sign up pages.</li>
@@ -38,7 +38,7 @@ export const Resume = () => {
                             </ul>
                         </div>
                         <div className="resume-project">
-                            <p style={{fontWeight: "700"}}><a href="https://instaounce-clone.herokuapp.com/login">Instaounce</a> (Python, Javascript, Flask, React / Redux, HTML5, CSS, SQLAlchemy, PostgreSQL, Faker)</p>
+                            <p style={{fontWeight: "700"}}><a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">Instaounce</a> (Python, Javascript, Flask, React / Redux, HTML5, CSS, SQLAlchemy, PostgreSQL, Faker)</p>
                             <p>A clone of Instagram. Contributors: Myself, Jacob North, Wooyoung Kim, Wan-yi.</p>
                             <ul>
                                 <li>Implemented AWS3 to upload images while using Redux state reducer to immediately render the post in the user feed.</li>
@@ -51,7 +51,7 @@ export const Resume = () => {
                             </ul>
                         </div>
                         <div className="resume-project">
-                            <p style={{fontWeight: "700"}}><a href="https://camplife1.herokuapp.com/">Camplife</a> (JavaScript, Express, React / Redux, HTML5, CSS, Sequelize, PostgreSQL, Faker)</p>
+                            <p style={{fontWeight: "700"}}><a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">Camplife</a> (JavaScript, Express, React / Redux, HTML5, CSS, Sequelize, PostgreSQL, Faker)</p>
                             <p>An application based off of HipCamp. Where you can host and book campsites.</p>
                             <ul>
                                 <li>Utilized onClick functions to upload multiple images at a time when hosting a campsite.</li>
@@ -61,7 +61,7 @@ export const Resume = () => {
                             </ul>
                         </div>
                         <div className="resume-project">
-                            <p style={{fontWeight: "700"}}><a href="https://shouldsees.herokuapp.com/">ShouldSees</a> (JavaScript, Express, Pug, HTML5, CSS, Sequelize, PostgreSQL, Faker)</p>
+                            <p style={{fontWeight: "700"}}><a target="_blank" rel="noopener noreferrer" href="https://shouldsees.herokuapp.com/">ShouldSees</a> (JavaScript, Express, Pug, HTML5, CSS, Sequelize, PostgreSQL, Faker)</p>
                             <p>An application based off of Goodreads. Contributors: Myself, Sharon Fang, Shams Shaikh, Ty Rickers</p>
                             <ul>
                                 <li>Used Sequelize queries in Express routes to shift data from “Have Watched”, “Want to Watch”, and “Is Watching” lists.</li>

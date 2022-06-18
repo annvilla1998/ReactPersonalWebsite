@@ -23,21 +23,27 @@ export const Portfolio = () => {
     return (
         <div className="portfolio-page">
             <div className="project 1">
-                <a href="https://instaounce-clone.herokuapp.com/login">
+                <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
                     <h1>Instaounce</h1>
-                    <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
+                    <div className="project-image">
+                        <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
+                    </div>
                 </a>
             </div>  
             <div className="project 2">
-                <a href="https://camplife1.herokuapp.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">
                     <h1>Camplife</h1>
-                    <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
+                    <div className="project-image">
+                        <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
+                    </div>
                 </a>
             </div>  
             <div className="project 3">
-                <a href="https://eventtodo.herokuapp.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">
                     <h1>Eventtodo</h1>
-                    <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
+                    <div className="project-image">
+                        <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
+                    </div>
                 </a>
             </div>  
         </div>
