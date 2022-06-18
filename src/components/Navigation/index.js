@@ -21,9 +21,13 @@ export const Navigation = () => {
                         color: isActive ? 'var(--color-4)' : 'white'
                     })} to="/resume">Resume</NavLink>
                 </div>
-                {/* <div id="portfolio-link">
-                    <Link onClick={() =>handleActiveLink()} to="/portfolio">Portfolio</Link>
-                </div> */}
+                <div id="portfolio-link">
+                    <NavLink style={({ isActive }) => ({
+                            border: isActive ? '1px solid var(--color-4)' : 'none',
+                            padding: isActive ? '2px' : '0',
+                            color: isActive ? 'var(--color-4)' : 'white'
+                        })} to="/portfolio">Portfolio</NavLink>
+                </div>
                 <div id="contact-link">
                     <NavLink style={({ isActive }) => ({
                         border: isActive ? '1px solid var(--color-4)' : 'none',
