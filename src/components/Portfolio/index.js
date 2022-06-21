@@ -20,18 +20,25 @@ export const Portfolio = () => {
     const eventImages = [eventtodoform, eventtodoHomepage, eventtodoLogin]
     const campImages = [camplifeHomepage, camplifeSiteDetails]
 
+    const handleSwipeRight = () => {
+        // const container = document.querySelector('.projects-container')
+        // container.scrollTo({ right: 0 })
+    }
+
     return (
         <div className="portfolio-page">
+            <i className="fa-solid fa-caret-left"></i>
             <div>
                 <h1>Projects</h1>
             </div>
             <div className="projects-container">
-                <i class="fa-solid fa-caret-left"></i>
                 <div className="project 1">
                     <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
                         <h2>Instaounce</h2>
                         <div className="project-image">
-                            <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
+                            <i className="fa-solid fa-angle-left"></i>
+                                <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
+                            <i className="fa-solid fa-angle-right"></i>
                         </div>
                     </a>
                 </div>  
@@ -39,7 +46,9 @@ export const Portfolio = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">
                         <h2>Camplife</h2>
                         <div className="project-image">
-                            <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
+                            <i className="fa-solid fa-angle-left"></i>
+                                <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
+                            <i className="fa-solid fa-angle-right"></i>
                         </div>
                     </a>
                 </div>  
@@ -47,12 +56,14 @@ export const Portfolio = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">
                         <h2>Eventtodo</h2>
                         <div className="project-image">
-                            <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
+                            <i className="fa-solid fa-angle-left"></i>
+                                <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
+                            <i className="fa-solid fa-angle-right"></i>
                         </div>
                     </a>
                 </div> 
-                <i class="fa-solid fa-caret-right"></i>
             </div>
+            <i onClick={handleSwipeRight} className="fa-solid fa-caret-right"></i>
         </div>
     )
 }
