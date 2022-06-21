@@ -22,30 +22,37 @@ export const Portfolio = () => {
 
     return (
         <div className="portfolio-page">
-            <div className="project 1">
-                <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
-                    <h1>Instaounce</h1>
-                    <div className="project-image">
-                        <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
-                    </div>
-                </a>
-            </div>  
-            <div className="project 2">
-                <a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">
-                    <h1>Camplife</h1>
-                    <div className="project-image">
-                        <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
-                    </div>
-                </a>
-            </div>  
-            <div className="project 3">
-                <a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">
-                    <h1>Eventtodo</h1>
-                    <div className="project-image">
-                        <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
-                    </div>
-                </a>
-            </div>  
+            <div>
+                <h1>Projects</h1>
+            </div>
+            <div className="projects-container">
+                <i class="fa-solid fa-caret-left"></i>
+                <div className="project 1">
+                    <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
+                        <h2>Instaounce</h2>
+                        <div className="project-image">
+                            <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
+                        </div>
+                    </a>
+                </div>  
+                <div className="project 2">
+                    <a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">
+                        <h2>Camplife</h2>
+                        <div className="project-image">
+                            <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
+                        </div>
+                    </a>
+                </div>  
+                <div className="project 3">
+                    <a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">
+                        <h2>Eventtodo</h2>
+                        <div className="project-image">
+                            <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
+                        </div>
+                    </a>
+                </div> 
+                <i class="fa-solid fa-caret-right"></i>
+            </div>
         </div>
     )
 }
