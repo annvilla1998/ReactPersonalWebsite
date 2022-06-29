@@ -25,6 +25,42 @@ export const Portfolio = () => {
         // container.scrollTo({ right: 0 })
     }
 
+    const handleInstaRightImageChange = () => {
+        if(instaCurrentImageIndex < instaImages.length - 1){
+            setInstaCurrentImageIndex(instaCurrentImageIndex + 1)
+        }
+    }
+
+    const handleInstaLeftImageChange = () => {
+        if(instaCurrentImageIndex > 0) {
+            setInstaCurrentImageIndex(instaCurrentImageIndex - 1)
+        }
+    }
+
+    const handleEventRightImageChange = () => {
+        if(eventCurrentImageIndex < eventImages.length - 1){
+            setEventCurrentImageIndex(eventCurrentImageIndex + 1)
+        }
+    }
+
+    const handleEventLeftImageChange = () => {
+         if(eventCurrentImageIndex > 0) {
+            setEventCurrentImageIndex(eventCurrentImageIndex - 1)
+        }
+    }
+
+    const handleCampRightImageChange = () => {
+        if(campCurrentImageIndex < campImages.length - 1){
+            setCampCurrentImageIndex(campCurrentImageIndex + 1)
+        }
+    }
+
+    const handleCampLeftImageChange = () => {
+        if(campCurrentImageIndex > 0) {
+            setCampCurrentImageIndex(campCurrentImageIndex - 1)
+        }
+    }
+
     return (
         <div className="portfolio-page">
             <i className="fa-solid fa-caret-left"></i>
@@ -35,32 +71,32 @@ export const Portfolio = () => {
                 <div className="project 1">
                     <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
                         <h2>Instaounce</h2>
-                        <div className="project-image">
-                            <i className="fa-solid fa-angle-left"></i>
-                                <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
-                            <i className="fa-solid fa-angle-right"></i>
-                        </div>
                     </a>
+                        <div className="project-image">
+                            <i onClick={handleInstaLeftImageChange} className="fa-solid fa-angle-left"></i>
+                                <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
+                            <i onClick={handleInstaRightImageChange} className="fa-solid fa-angle-right"></i>
+                        </div>
                 </div>  
                 <div className="project 2">
                     <a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">
                         <h2>Camplife</h2>
-                        <div className="project-image">
-                            <i className="fa-solid fa-angle-left"></i>
-                                <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
-                            <i className="fa-solid fa-angle-right"></i>
-                        </div>
                     </a>
+                        <div className="project-image">
+                            <i onClick={handleCampLeftImageChange} className="fa-solid fa-angle-left"></i>
+                                <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
+                            <i onClick={handleCampRightImageChange} className="fa-solid fa-angle-right"></i>
+                        </div>
                 </div>  
                 <div className="project 3">
                     <a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">
                         <h2>Eventtodo</h2>
-                        <div className="project-image">
-                            <i className="fa-solid fa-angle-left"></i>
-                                <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
-                            <i className="fa-solid fa-angle-right"></i>
-                        </div>
                     </a>
+                        <div className="project-image">
+                            <i onClick={handleEventLeftImageChange} className="fa-solid fa-angle-left"></i>
+                                <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
+                            <i onClick={handleEventRightImageChange} className="fa-solid fa-angle-right"></i>
+                        </div>
                 </div> 
             </div>
             <i onClick={handleSwipeRight} className="fa-solid fa-caret-right"></i>
