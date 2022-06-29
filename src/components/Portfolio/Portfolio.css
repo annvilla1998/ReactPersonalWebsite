@@ -48,12 +48,39 @@
 
 .project {
     margin: 2vw;
+    position: relative;
 }
 
 .project-image {
     width: 35vw;
     overflow: hidden;
     margin: 2vw;
+}
+
+.portfolio-page i.fa-angle-left {
+    position: absolute;
+    left: 0;
+    font-size: 3vmin;
+    padding: 1vmin 1.8vmin;
+    border: 1px solid var(--color-4);
+    border-radius:50%;
+    background-color: var(--color-4);
+    color: white;
+    top: 50%;
+    transition: all 0.5s;
+}
+
+.portfolio-page i.fa-angle-right {
+    position: absolute;
+    right: 0;
+    font-size: 3vmin;
+    padding: 1vmin 1.8vmin;
+    border: 1px solid var(--color-4);
+    border-radius:50%;
+    background-color: var(--color-4);
+    color: white;
+    top: 50%;
+    transition: all 0.5s;
 }
 
 .project a {
