@@ -2,7 +2,8 @@
 .portfolio-page {
     display: flex;
     flex-direction: column;
-    margin: 5vw 4vw;
+    margin : 15vh 4vw 8vh 4vw;
+    /* margin: 5vw 4vw; */
     position: relative;
     padding: 0 3vw;
 }
@@ -41,8 +42,8 @@
 
 .projects-container {
     display: flex;
-    height: 40vw;
     width: 100%;
+    padding: 1vw;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     overflow: scroll;
     -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -54,8 +55,17 @@
 }
 
 .project {
-    margin: 2vw;
+    margin: 2vw 4vw;
     position: relative;
+}
+
+.project h2 {
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+    font-size: 3vmin;
+}
+
+.project p {
+    font-size: 2vmin;
 }
 
 .project-image {
