@@ -7,7 +7,7 @@ export const Resume = () => {
         <div className="resume-page">
             <article id="resume">
                 <header>
-                    <h1 style={{color: "var(--color-3)", fontSize:"2rem"}}>Anabel Villalobos</h1>
+                    <h1 style={{textShadow: "4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15)",color: "var(--color-3)", fontSize:"4vmin"}}>Anabel Villalobos</h1>
                     <div className="resume-header-contact-info">
                         <p>(760) 881-2253</p>
                         <p>villalobos1998@gmail.com</p>

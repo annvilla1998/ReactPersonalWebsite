@@ -32,6 +32,7 @@
 
 #resume h2 {
     color: var(--color-3);
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
 

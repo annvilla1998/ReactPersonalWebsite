@@ -1,7 +1,8 @@
 import './Portfolio.css'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import camplifeHomepage from '../../assets/images/camplife home.png'
 import camplifeSiteDetails from '../../assets/images/campsitedetails.png'
+import campLifeReviews from '../../assets/images/campLifeReviews.png'
 import eventtodoform from '../../assets/images/eventtodoeventform.png'
 import eventtodoHomepage from '../../assets/images/eventtodoHomepage.png'
 import eventtodoLogin from '../../assets/images/eventtodologin.png'
@@ -13,16 +14,22 @@ import instaounceProfile from '../../assets/images/instaounceprofilepage.png'
 import instaounceSearch from '../../assets/images/instaounceSearch.png'
 
 export const Portfolio = () => {
+    const ref = useRef(null)
     const [campCurrentImageIndex, setCampCurrentImageIndex] = useState(0)
     const [eventCurrentImageIndex, setEventCurrentImageIndex] = useState(0)
     const [instaCurrentImageIndex, setInstaCurrentImageIndex] = useState(0)
     const instaImages = [instaounceexplore, instaouncefollowers, instaounceHomepage,instaouncePost,instaounceProfile,instaounceSearch]
     const eventImages = [eventtodoform, eventtodoHomepage, eventtodoLogin]
-    const campImages = [camplifeHomepage, camplifeSiteDetails]
+    const campImages = [camplifeHomepage, camplifeSiteDetails, campLifeReviews]
 
-    const handleSwipeRight = () => {
-        // const container = document.querySelector('.projects-container')
-        // container.scrollTo({ right: 0 })
+    const scrollRight = () => {
+        // ref.current.scrollLeft += scrollOffset;
+        ref.current.scrollTo({ left: 1000, behavior: 'smooth'})
+    }
+
+    const scrollLeft = () => {
+        // ref.current.scrollLeft += scrollOffset;
+        ref.current.scrollTo({ left: 0, behavior: 'smooth'})
     }
 
     const handleInstaRightImageChange = () => {
@@ -63,11 +70,11 @@ export const Portfolio = () => {
 
     return (
         <div className="portfolio-page">
-            <i className="fa-solid fa-caret-left"></i>
+            <i  onClick={scrollLeft} className="fa-solid fa-caret-left"></i>
             <div>
                 <h1>Projects</h1>
             </div>
-            <div className="projects-container">
+            <div className="projects-container" ref={ref}>
                 <div className="project 1">
                     <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
                         <h2>Instaounce</h2>
@@ -99,7 +106,7 @@ export const Portfolio = () => {
                         </div>
                 </div> 
             </div>
-            <i onClick={handleSwipeRight} className="fa-solid fa-caret-right"></i>
+            <i onClick={scrollRight} className="fa-solid fa-caret-right"></i>
         </div>
     )
 }
