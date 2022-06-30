@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ae1b8c9.css",
-    "main.js": "/static/js/main.f76e6b1c.js",
+    "main.css": "/static/css/main.497d23e8.css",
+    "main.js": "/static/js/main.ea8da68e.js",
+    "static/media/camplife home.png": "/static/media/camplife home.4a83ac2f7bbe18eb0d4f.png",
+    "static/media/instaounceexplorepage.png": "/static/media/instaounceexplorepage.160fad9eb8bcffc8938d.png",
+    "static/media/eventtodologin.png": "/static/media/eventtodologin.cdcdcb4f1f6d1dfc8f45.png",
+    "static/media/campsitedetails.png": "/static/media/campsitedetails.471d6e65fe38d689c931.png",
+    "static/media/instaounceprofilepage.png": "/static/media/instaounceprofilepage.bfa2be6118b493599fc9.png",
+    "static/media/instaounceHomepage.png": "/static/media/instaounceHomepage.427bda0cbaa300a72940.png",
+    "static/media/campLifeReviews.png": "/static/media/campLifeReviews.24b71cd9ec8d7fb00773.png",
+    "static/media/instaouncepostform.png": "/static/media/instaouncepostform.a557fc42b91821b96f7b.png",
     "static/media/me.jpg": "/static/media/me.bbab30a9113dfc6610b6.jpg",
+    "static/media/instaounceSearch.png": "/static/media/instaounceSearch.04fa4302bc0c50862a3d.png",
+    "static/media/instaouncefollowers.png": "/static/media/instaouncefollowers.c4592c534848cf2fae81.png",
+    "static/media/eventtodoHomepage.png": "/static/media/eventtodoHomepage.f9682f99682fb290339e.png",
     "static/media/resume.pdf": "/static/media/resume.172cff5b3ff72d46e392.pdf",
+    "static/media/eventtodoeventform.png": "/static/media/eventtodoeventform.a378f200b21942ec9b77.png",
     "index.html": "/index.html",
-    "main.4ae1b8c9.css.map": "/static/css/main.4ae1b8c9.css.map",
-    "main.f76e6b1c.js.map": "/static/js/main.f76e6b1c.js.map"
+    "main.497d23e8.css.map": "/static/css/main.497d23e8.css.map",
+    "main.ea8da68e.js.map": "/static/js/main.ea8da68e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ae1b8c9.css",
-    "static/js/main.f76e6b1c.js"
+    "static/css/main.497d23e8.css",
+    "static/js/main.ea8da68e.js"
   ]
 }
