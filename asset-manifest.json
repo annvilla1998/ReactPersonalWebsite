@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.497d23e8.css",
-    "main.js": "/static/js/main.ea8da68e.js",
+    "main.js": "/static/js/main.fb6d1f80.js",
     "static/media/camplife home.png": "/static/media/camplife home.4a83ac2f7bbe18eb0d4f.png",
     "static/media/instaounceexplorepage.png": "/static/media/instaounceexplorepage.160fad9eb8bcffc8938d.png",
     "static/media/eventtodologin.png": "/static/media/eventtodologin.cdcdcb4f1f6d1dfc8f45.png",
@@ -18,10 +18,10 @@
     "static/media/eventtodoeventform.png": "/static/media/eventtodoeventform.a378f200b21942ec9b77.png",
     "index.html": "/index.html",
     "main.497d23e8.css.map": "/static/css/main.497d23e8.css.map",
-    "main.ea8da68e.js.map": "/static/js/main.ea8da68e.js.map"
+    "main.fb6d1f80.js.map": "/static/js/main.fb6d1f80.js.map"
   },
   "entrypoints": [
     "static/css/main.497d23e8.css",
-    "static/js/main.ea8da68e.js"
+    "static/js/main.fb6d1f80.js"
   ]
 }
