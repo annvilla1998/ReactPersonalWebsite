@@ -79,6 +79,7 @@ export const Portfolio = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://instaounce-clone.herokuapp.com/login">
                         <h2>Instaounce</h2>
                     </a>
+                        <p>Clone of <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">Instagram</a></p>
                         <div className="project-image">
                             <i onClick={handleInstaLeftImageChange} className="fa-solid fa-angle-left"></i>
                                 <img alt="Instaounce" src={instaImages[instaCurrentImageIndex]} />
@@ -89,6 +90,7 @@ export const Portfolio = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://camplife1.herokuapp.com/">
                         <h2>Camplife</h2>
                     </a>
+                        <p>Based off <a target="_blank" rel="noopener noreferrer" href="https://www.hipcamp.com/en-US">HipCamp</a></p>
                         <div className="project-image">
                             <i onClick={handleCampLeftImageChange} className="fa-solid fa-angle-left"></i>
                                 <img alt="Camplife" src={campImages[campCurrentImageIndex]} />
@@ -99,6 +101,7 @@ export const Portfolio = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://eventtodo.herokuapp.com/">
                         <h2>Eventtodo</h2>
                     </a>
+                        <p>Based off <a target="_blank" rel="noopener noreferrer" href="https://todoist.com/">todoist</a></p>
                         <div className="project-image">
                             <i onClick={handleEventLeftImageChange} className="fa-solid fa-angle-left"></i>
                                 <img alt="EventToDo" src={eventImages[eventCurrentImageIndex]} />
