@@ -1,6 +1,6 @@
 
 .resume-page {
-    margin : 15vh 15vw 8vh 15vw;
+    margin : 15vh 2vw 8vh 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 
 #resume {
     border: 5px solid black;
-    width: 55vw;
+    width: 80%;
     height:auto;
     padding: 3vmin;
     line-height: 1.5;

@@ -23,12 +23,11 @@ export const Portfolio = () => {
     const campImages = [camplifeHomepage, camplifeSiteDetails, campLifeReviews]
 
     const scrollRight = () => {
-        // ref.current.scrollLeft += scrollOffset;
         ref.current.scrollTo({ left: 1000, behavior: 'smooth'})
     }
 
+
     const scrollLeft = () => {
-        // ref.current.scrollLeft += scrollOffset;
         ref.current.scrollTo({ left: 0, behavior: 'smooth'})
     }
 

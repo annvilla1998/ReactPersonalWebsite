@@ -72,22 +72,34 @@ export const Resume = () => {
                     <div id="experience-section">
                         <div className="header-date">
                             <h2>Experience</h2>
-                            <p>March 2018 - April 2022</p>
+                            <p style={{fontStyle: 'oblique'}}>March 2018 - April 2022</p>
                         </div>
-                        <p>Cosmos Taverna, Bar Louie</p>
-                        <p>Sports/Event/Restaurant Bartender</p>
+                        <p style={{fontWeight: 'bold'}}>Cosmos Taverna, Bar Louie</p>
+                        <p style={{fontWeight: 'bold'}}>Sports/Event/Restaurant Bartender</p>
                         <ul>
                             <li>Learned how to work fast under pressure with a smile.</li>
                             <li>Managed to keep up 31 plus people satisfied with service as a lone bartender.</li>
                             <li>Trained and developed other bartenders in selling and bar techniques and procedures.</li>
                         </ul>
+                        <div className="header-date">
+                            <p style={{fontStyle: 'oblique'}}>June 2020 - August 2021</p>
+                        </div>
+                        <p style={{fontWeight: 'bold'}}>Homebridge Financial</p>
+                        <p style={{fontWeight: 'bold'}}>Closing Scheduler</p>
+                        <ul>
+                            <li>Worked daily with Microsoft Excel and Outlook to log data and schedule loan 
+                                closers/funders logically based on skill and time zone. 
+                            </li>
+                            <li>Participated in daily meetings and communicated with a small team using Microsoft Teams.</li>
+                            <li>Trained and developed other schedulers.</li>
+                        </ul>
                     </div>
                     <div id="education-section">
                         <div className="header-date">
                             <h2>Education</h2>
-                            <p>August 2021 - May 2022</p>
+                            <p style={{fontStyle: 'oblique'}}>August 2021 - May 2022</p>
                         </div>
-                        <p>AppAcademy</p>
+                        <p style={{fontWeight: 'bold'}}>AppAcademy</p>
                         <p>Immersive software development 24 week course with focus on full stack web development.</p>
                         <ul>
                             <li>Coded daily for 8+ hours and tested weekly to avoid deferral.</li>
