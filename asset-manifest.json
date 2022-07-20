@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1d17f16.css",
-    "main.js": "/static/js/main.caac935d.js",
+    "main.css": "/static/css/main.d637229b.css",
+    "main.js": "/static/js/main.6115f2ae.js",
     "static/media/camplife home.png": "/static/media/camplife home.4a83ac2f7bbe18eb0d4f.png",
+    "static/media/profess.PNG": "/static/media/profess.22dc9b83c6aec83e1672.PNG",
     "static/media/instaounceexplorepage.png": "/static/media/instaounceexplorepage.160fad9eb8bcffc8938d.png",
     "static/media/eventtodologin.png": "/static/media/eventtodologin.cdcdcb4f1f6d1dfc8f45.png",
     "static/media/campsitedetails.png": "/static/media/campsitedetails.471d6e65fe38d689c931.png",
@@ -10,18 +11,17 @@
     "static/media/instaounceHomepage.png": "/static/media/instaounceHomepage.427bda0cbaa300a72940.png",
     "static/media/campLifeReviews.png": "/static/media/campLifeReviews.24b71cd9ec8d7fb00773.png",
     "static/media/instaouncepostform.png": "/static/media/instaouncepostform.a557fc42b91821b96f7b.png",
-    "static/media/me.jpg": "/static/media/me.bbab30a9113dfc6610b6.jpg",
     "static/media/instaounceSearch.png": "/static/media/instaounceSearch.04fa4302bc0c50862a3d.png",
     "static/media/instaouncefollowers.png": "/static/media/instaouncefollowers.c4592c534848cf2fae81.png",
     "static/media/eventtodoHomepage.png": "/static/media/eventtodoHomepage.f9682f99682fb290339e.png",
     "static/media/resume.pdf": "/static/media/resume.5573de94b6b1a9cd92c7.pdf",
     "static/media/eventtodoeventform.png": "/static/media/eventtodoeventform.a378f200b21942ec9b77.png",
     "index.html": "/index.html",
-    "main.a1d17f16.css.map": "/static/css/main.a1d17f16.css.map",
-    "main.caac935d.js.map": "/static/js/main.caac935d.js.map"
+    "main.d637229b.css.map": "/static/css/main.d637229b.css.map",
+    "main.6115f2ae.js.map": "/static/js/main.6115f2ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d17f16.css",
-    "static/js/main.caac935d.js"
+    "static/css/main.d637229b.css",
+    "static/js/main.6115f2ae.js"
   ]
 }
