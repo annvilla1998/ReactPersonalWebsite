@@ -81,6 +81,8 @@
   height: 60vh;
   width: 40vh;
   margin-top: 20vh;
+  display:flex;
+  align-items:center;
   margin-bottom: 3vh;
   background-color: var(--dark);
   padding: 2%;

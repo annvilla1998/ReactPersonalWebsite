@@ -1,5 +1,5 @@
 import './Homepage.css'
-import me from '../../assets/images/me.jpg'
+import me from '../../assets/images/profess.PNG'
 
 export const Homepage = () => {
 
