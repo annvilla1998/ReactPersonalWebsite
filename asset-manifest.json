@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d637229b.css",
-    "main.js": "/static/js/main.da5782d9.js",
-    "static/media/camplife home.png": "/static/media/camplife home.4a83ac2f7bbe18eb0d4f.png",
-    "static/media/instaounceexplorepage.png": "/static/media/instaounceexplorepage.160fad9eb8bcffc8938d.png",
-    "static/media/eventtodologin.png": "/static/media/eventtodologin.cdcdcb4f1f6d1dfc8f45.png",
-    "static/media/campsitedetails.png": "/static/media/campsitedetails.471d6e65fe38d689c931.png",
-    "static/media/instaounceprofilepage.png": "/static/media/instaounceprofilepage.bfa2be6118b493599fc9.png",
-    "static/media/instaounceHomepage.png": "/static/media/instaounceHomepage.427bda0cbaa300a72940.png",
-    "static/media/campLifeReviews.png": "/static/media/campLifeReviews.24b71cd9ec8d7fb00773.png",
-    "static/media/instaouncepostform.png": "/static/media/instaouncepostform.a557fc42b91821b96f7b.png",
+    "main.css": "/static/css/main.3c7a2f93.css",
+    "main.js": "/static/js/main.3e4a1253.js",
+    "static/media/instaounceexplorepage.png": "/static/media/instaounceexplorepage.eb69917762b581c2cd41.png",
+    "static/media/crownClothingHomepage.png": "/static/media/crownClothingHomepage.f42f1a6ed836af7b7bd1.png",
+    "static/media/crownClothingShop.png": "/static/media/crownClothingShop.b410ffaddbf16b728647.png",
+    "static/media/camplife home.png": "/static/media/camplife home.360d44be9e8932e7cff1.png",
+    "static/media/instaounceHomepage.png": "/static/media/instaounceHomepage.fbcc84017fe48e505189.png",
+    "static/media/campsitedetails.png": "/static/media/campsitedetails.d126618d95960f7b6559.png",
+    "static/media/instaounceSearch.png": "/static/media/instaounceSearch.b81e02d44c45bb61c0c2.png",
+    "static/media/instaounceprofilepage.png": "/static/media/instaounceprofilepage.23815c2996891fa7e0d5.png",
+    "static/media/eventtodologin.png": "/static/media/eventtodologin.fae940fe2198d93d706b.png",
+    "static/media/instaouncefollowers.png": "/static/media/instaouncefollowers.8f7fab674ca3879abed5.png",
     "static/media/me.jpg": "/static/media/me.bbab30a9113dfc6610b6.jpg",
-    "static/media/instaounceSearch.png": "/static/media/instaounceSearch.04fa4302bc0c50862a3d.png",
-    "static/media/instaouncefollowers.png": "/static/media/instaouncefollowers.c4592c534848cf2fae81.png",
-    "static/media/eventtodoHomepage.png": "/static/media/eventtodoHomepage.f9682f99682fb290339e.png",
+    "static/media/campLifeReviews.png": "/static/media/campLifeReviews.5087682b52a349f885b1.png",
+    "static/media/crownClothingCheckout.png": "/static/media/crownClothingCheckout.6154584c492d8cbd3308.png",
     "static/media/resume.pdf": "/static/media/resume.5573de94b6b1a9cd92c7.pdf",
-    "static/media/eventtodoeventform.png": "/static/media/eventtodoeventform.a378f200b21942ec9b77.png",
+    "static/media/eventtodoeventform.png": "/static/media/eventtodoeventform.d4388172030fa9d255af.png",
+    "static/media/crownClothingSignIn.png": "/static/media/crownClothingSignIn.f7a7a580eecd1bf9dc92.png",
+    "static/media/eventtodoHomepage.png": "/static/media/eventtodoHomepage.84c155e82dd9ebd330e5.png",
     "index.html": "/index.html",
-    "main.d637229b.css.map": "/static/css/main.d637229b.css.map",
-    "main.da5782d9.js.map": "/static/js/main.da5782d9.js.map"
+    "main.3c7a2f93.css.map": "/static/css/main.3c7a2f93.css.map",
+    "main.3e4a1253.js.map": "/static/js/main.3e4a1253.js.map"
   },
   "entrypoints": [
-    "static/css/main.d637229b.css",
-    "static/js/main.da5782d9.js"
+    "static/css/main.3c7a2f93.css",
+    "static/js/main.3e4a1253.js"
   ]
 }
