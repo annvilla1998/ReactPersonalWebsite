@@ -23,6 +23,42 @@ export const Resume = () => {
                         HTML5, CSS3, Git, Docker, Node.js, Heroku, Adobe Illustrator, Adobe Photoshop
                         </p>
                     </div>
+                    <div id="experience-section">
+                            <h2>Experience</h2>
+                        <div style={{ paddingBottom:'10px'}}>
+                            <div className="header-date">
+                                <p style={{fontStyle: 'oblique'}}>August 2022 - current</p>
+                            </div>
+                            <p style={{fontWeight: 'bold'}}>TheCommonsXR</p>
+                            <p style={{fontWeight: 'bold'}}>Software Engineering Intern</p>
+                        </div>
+                        <div style={{ paddingBottom:'10px'}}>
+                            <div className="header-date">
+                                <p style={{fontStyle: 'oblique'}}>June 2020 - August 2021</p>
+                            </div>
+                            <p style={{fontWeight: 'bold'}}>Cosmos Taverna, Bar Louie</p>
+                            <p style={{fontWeight: 'bold'}}>Sports/Event/Restaurant Bartender</p>
+                            <ul>
+                                <li>Learned how to work fast under pressure with a smile.</li>
+                                <li>Managed to keep up 31 plus people satisfied with service as a lone bartender.</li>
+                                <li>Trained and developed other bartenders in selling and bar techniques and procedures.</li>
+                            </ul>
+                        </div>
+                        <div style={{ paddingBottom:'10px'}}>
+                            <div className="header-date">
+                                <p style={{fontStyle: 'oblique'}}>June 2020 - August 2021</p>
+                            </div>
+                            <p style={{fontWeight: 'bold'}}>Homebridge Financial</p>
+                            <p style={{fontWeight: 'bold'}}>Closing Scheduler</p>
+                            <ul>
+                                <li>Worked daily with Microsoft Excel and Outlook to log data and schedule loan 
+                                    closers/funders logically based on skill and time zone. 
+                                </li>
+                                <li>Participated in daily meetings and communicated with a small team using Microsoft Teams.</li>
+                                <li>Trained and developed other schedulers.</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div id="projects-section">
                         <h2>Projects</h2>
                         <div className="resume-project">
@@ -68,31 +104,6 @@ export const Resume = () => {
                                 <li>Used CSS grid to organize data into a browse section for easy access to all shows available in the database.</li>
                             </ul>
                         </div>
-                    </div>
-                    <div id="experience-section">
-                        <div className="header-date">
-                            <h2>Experience</h2>
-                            <p style={{fontStyle: 'oblique'}}>March 2018 - April 2022</p>
-                        </div>
-                        <p style={{fontWeight: 'bold'}}>Cosmos Taverna, Bar Louie</p>
-                        <p style={{fontWeight: 'bold'}}>Sports/Event/Restaurant Bartender</p>
-                        <ul>
-                            <li>Learned how to work fast under pressure with a smile.</li>
-                            <li>Managed to keep up 31 plus people satisfied with service as a lone bartender.</li>
-                            <li>Trained and developed other bartenders in selling and bar techniques and procedures.</li>
-                        </ul>
-                        <div className="header-date">
-                            <p style={{fontStyle: 'oblique'}}>June 2020 - August 2021</p>
-                        </div>
-                        <p style={{fontWeight: 'bold'}}>Homebridge Financial</p>
-                        <p style={{fontWeight: 'bold'}}>Closing Scheduler</p>
-                        <ul>
-                            <li>Worked daily with Microsoft Excel and Outlook to log data and schedule loan 
-                                closers/funders logically based on skill and time zone. 
-                            </li>
-                            <li>Participated in daily meetings and communicated with a small team using Microsoft Teams.</li>
-                            <li>Trained and developed other schedulers.</li>
-                        </ul>
                     </div>
                     <div id="education-section">
                         <div className="header-date">
